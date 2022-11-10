@@ -1,0 +1,132 @@
+.leg-container {
+  margin: 15px 30px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #efefef;
+
+  position: relative;
+}
+
+.leg-options {
+  padding: 10px 30px;
+}
+
+.delete-svg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.copy-svg {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  right: 0px;
+}
+
+.leg-header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.leg-header select {
+  margin: 0px 5px;
+}
+
+.leg-header label {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.lot-container label {
+  height: fit-content;
+  margin: 5px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.lot-container {
+  display: flex;
+}
+
+.leg-lot-container {
+  width: 81px;
+  height: 26px;
+  position: relative;
+}
+
+.leg-number-input {
+  width: 100%;
+  height: 100%;
+  padding: 3px 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 17px;
+  overflow: hidden;
+}
+
+.leg-select-input {
+  background-color: #375a9e;
+  border: none;
+  color: #fff;
+  border-radius: 17.5px;
+  padding: 3px 10px;
+}
+
+/* Leg options */
+.leg-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leg-input-options {
+  padding: 10px 0px;
+  display: flex;
+}
+
+.blur {
+  opacity: 0.3;
+}
+
+.checkbox {
+  width: 10px;
+  height: 10px;
+}
+
+.leg-options label {
+  margin: 0 5px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 14px;
+  color: #3f3f3f;
+}
+
+.leg-number-spacing {
+  margin: 0 0px 0px 20px;
+}
+
+.submit-button {
+  background-color: #375a9e;
+  border: none;
+  color: #fff;
+}
+
+.submit-container {
+  text-align: center;
+}
